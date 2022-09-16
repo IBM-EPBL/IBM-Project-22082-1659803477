@@ -1,0 +1,15 @@
+Question 4:
+
+what are the other frameworks can be used with python?
+
+->Django
+->Bottle
+->Pyramid
+->Web2py
+
+
+Question 5:
+
+Full form of WSGI:
+
+WSGI = Web Server Gateway Interface

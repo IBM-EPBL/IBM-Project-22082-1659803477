@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600&display=swap");
+
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: "Poppins", sans-serif;
+      }
+      body {
+        width: 100vw;
+        height: 100vh;
+        background-color: rgb(255, 255, 255);
+
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+      .container {
+        width: 450px;
+        height: 500px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        /* border: 1px solid black; */
+        border-radius: 10px;
+        box-shadow: 0px 0px 20px 9px rgba(0, 0, 0, 0.247);
+        background-color: rgb(255, 255, 255);
+      }
+      .container h1 {
+        margin: 10px 0;
+      }
+      .container form {
+        width: 100%;
+        height: 100%;
+        /* border: 1px solid springgreen; */
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+      }
+      .container form div {
+        width: 100%;
+        margin: 10px 0;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+      }
+
+      .container form div input {
+        width: 300px;
+        background-color: rgba(128, 128, 128, 0.21);
+        border: none;
+        padding: 10px;
+        border-radius: 8px;
+      }
+      .container form div input::placeholder {
+        text-align: center;
+        color: rgba(0, 0, 0, 0.278);
+        font-size: medium;
+      }
+      /* .container form div input:active {
+        border: none;
+        outline: none;
+      } */
+      .container form div input:target {
+        outline: none;
+        border: none;
+      }
+
+      .container form div label {
+        width: 80px;
+      }
+
+      .btn {
+        width: 100px;
+        height: 40px;
+        background-color: #fd794f;
+        color: white;
+        cursor: pointer;
+        border: none;
+        border-radius: 9px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Register Form</h1>
+      <form>
+        <div>
+          <label for="name"> Name: </label>
+          <input type="text" placeholder="name" id="name" />
+        </div>
+        <div>
+          <label for="email"> Email: </label>
+          <input type="email" placeholder="email" id="email" />
+        </div>
+        <div>
+          <label for="Mobile"> Mobile: </label>
+          <input type="text" placeholder="Mobile" id="Mobile" />
+        </div>
+        <div>
+          <label for="City"> City: </label>
+          <input type="text" placeholder="City" id="City" />
+        </div>
+        <div>
+          <label for="State"> State: </label>
+          <input type="text" placeholder="State" id="State" />
+        </div>
+        <div>
+          <label for="Country"> Country: </label>
+          <input type="text" placeholder="Country" id="Country" />
+        </div>
+        <input type="button" value="Submit" class="btn" />
+      </form>
+    </div>
+  </body>
+</html>
