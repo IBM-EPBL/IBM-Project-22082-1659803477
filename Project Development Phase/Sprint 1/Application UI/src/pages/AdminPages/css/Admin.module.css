@@ -1,0 +1,128 @@
+.admin{
+    display: flex;
+    overflow-x: hidden;
+}
+.logo{
+    display:flex;
+    align-items: center;
+}
+.logoname{
+    text-decoration: none;
+    font-weight: 600;
+    color:rgba(0, 0, 0, 0.89);
+}
+.leftnav{
+    width: 20vw;
+    height: 100vh;
+    background: rgba(168, 164, 202, 1);
+margin-right: 1.4rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 2rem;
+    position: relative;
+
+}
+.avatarsec::after{
+    content: '';
+position: absolute;
+top: 0;
+width: 50px;
+height: 50px;
+right: 0;
+
+    border-radius: 0 300px 0 0;
+
+  
+background: rgb(138, 27, 36);
+z-index: 10;
+
+}
+.profilesec{
+    margin-top: 1.7rem; 
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.profileName{
+    font-weight: 500;
+    margin-top: 0.5rem;
+}
+.avatarsec{
+    border-radius: 100px;
+    height: 100px;
+    width: 100px;
+    border: 5px solid rgba(189, 163, 163, 0.5);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.avatar{
+    
+    
+    border-radius: 50%;
+    position: relative;
+    z-index: 20;
+}
+
+.links{
+    
+    margin-top: 2.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   
+}
+.links >*{
+    margin: 1rem 0;
+}
+.link{
+    text-decoration: none;
+    color: rgb(8, 2, 48);
+    font-weight: 500;
+    display: flex;
+    
+    align-items: center;
+}
+.linkicon{
+    width: 30px;
+    height: 30px;
+    margin-right: 8px;
+}
+.activelink{
+    text-decoration: none;
+    color: rgb(8, 2, 48);
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+justify-content: center;
+    background-color: white;
+    width: 18vw;
+   margin-left: 2rem;
+   padding: 0.7rem 0;
+   border-radius: 23px;
+position: relative;
+}
+.activelink::after{
+    content: '';
+    position: absolute;
+    width: 23px;
+    right: 0.9%;
+    height: 23px;
+background-color: rgba(168, 164, 202, 0.685);
+border-bottom-right-radius: 23px;
+top: -44%;
+box-shadow: 10px 10px 0px 4px rgb(255, 255, 255);
+}
+.activelink::before{
+    content: '';
+    position: absolute;
+    width: 23px;
+    right: 0.9%;
+    height: 23px;
+background-color: rgba(168, 164, 202, 0.685);
+border-top-right-radius: 23px;
+bottom: -44%;
+box-shadow: 10px -10px 0px 4px rgb(255, 255, 255);
+}

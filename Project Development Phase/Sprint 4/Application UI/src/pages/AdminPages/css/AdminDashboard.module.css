@@ -1,0 +1,40 @@
+.adminsec{
+    width: 78vw;
+    height: 100vh;
+    padding: 1rem 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+.tiles{
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+}
+.tile{
+    width:400px;
+height:150px;
+
+border-radius: 15px;
+padding: 1.3rem 2.1rem;
+box-shadow: 2px 1px 36px 4px rgba(0,0,0,0.15);
+}
+.heading{
+    font-weight: 600;
+    font-size: 1.1rem;
+}
+.value{
+    margin-top: 1rem;
+    font-size: 1.2rem;
+}
+.chart{
+    width: 60%;
+    height: fit-content;
+    box-shadow: 2px 1px 36px 4px rgba(0,0,0,0.15);
+
+border-radius: 18px;
+display: flex;
+align-items: center;
+justify-content: center;
+}

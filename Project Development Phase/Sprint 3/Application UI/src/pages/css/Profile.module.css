@@ -1,0 +1,44 @@
+.profilesec{
+    min-height: 88vh;
+    margin-top: 2rem;
+    display: flex;
+}
+.left{
+    width:27vw;
+   height: 88vh;
+   display: flex;
+ align-items: center;
+   flex-direction: column;
+   
+}
+.avatar{
+    width:150px;
+    height:150px;
+   
+}
+.name{
+    font-weight: 500;
+}
+.right{
+    width: 60vw;
+    height: 88vh;
+    background: rgba(231, 230, 235, 0.39);
+    border-radius: 18px;
+    backdrop-filter: blur(30px);
+}
+.heading{
+    font-size: 1.2rem;
+    font-weight: 600;
+    margin: 2rem 2.2rem;
+}
+.details{
+    display:flex;
+    margin-left: 4.5rem;
+}
+.label,.value{
+    width:150px;
+    height:55px
+}
+.label{
+    font-weight: 500;
+}
