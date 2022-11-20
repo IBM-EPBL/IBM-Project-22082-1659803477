@@ -1,0 +1,99 @@
+.logo {
+  display: flex;
+  align-items: center;
+}
+.logoname {
+  text-decoration: none;
+  font-weight: 600;
+  color: rgba(0, 0, 0, 0.89);
+}
+.navbar {
+  height: 10vh;
+
+  display: flex;
+  align-items: center;
+  padding: 0 10vw;
+  justify-content: space-between;
+  margin-bottom: 1rem;
+}
+.options {
+  display: flex;
+  align-items: center;
+}
+.options > * {
+  margin: 0 1rem;
+}
+.login {
+  position: relative;
+}
+.loginoptions {
+  position: absolute;
+  z-index: 100;
+  top: 160%;
+  left: -60%;
+  width: 170px;
+  display: flex;
+  height: fit-content;
+  flex-direction: column;
+  padding: 1.3rem 1.1rem;
+  border-radius: 9px;
+  visibility: hidden;
+  background-color: rgba(0, 26, 255, 0.8);
+}
+.loginoption {
+  color: white;
+  margin: 0.4rem 0;
+  text-decoration: none;
+}
+
+.navoption,
+.loginlabel {
+  text-decoration: none;
+  font-weight: 600;
+  color: rgba(0, 0, 0, 0.589);
+  transition: all 0.5s;
+}
+
+.navoption:hover,
+.loginlabel:hover {
+  color: rgba(214, 1, 1, 0.89);
+}
+
+.loginlabel {
+  cursor: pointer;
+}
+.active {
+  text-decoration: none;
+  font-weight: 600;
+  color: rgba(0, 0, 0, 0.89);
+  position: relative;
+  transition: all 0.5s;
+}
+.active::after {
+  content: "";
+  position: absolute;
+  width: 90px;
+  height: 5px;
+  border-radius: 5px;
+  background: linear-gradient(
+    45deg,
+    rgba(158, 162, 197, 0.747),
+    rgba(0, 26, 255, 0.74),
+    rgba(0, 26, 255, 0.74),
+    rgba(158, 162, 197, 0.747)
+  );
+  bottom: -10px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.loginactive {
+  visibility: visible;
+}
+.avatar {
+  width: 50px;
+  height: 50px;
+}
+
+.logout {
+  cursor: pointer;
+}

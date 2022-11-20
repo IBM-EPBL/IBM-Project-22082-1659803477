@@ -1,0 +1,22 @@
+.button{
+    width:140px;
+    height: 50px;
+    background: #0E20FF ;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50px; 
+    padding: 0 20px;
+  
+}
+.fill{
+    width:18rem
+}
+.buttonlink{
+    color:white;
+    text-decoration: none;
+      border: none;
+      outline: none;
+      cursor: pointer;
+}

@@ -1,0 +1,71 @@
+.alldonors{
+    width: 78vw;
+    height: 100vh;
+
+}
+.heading{
+    margin-top: 3rem;
+    font-size: 1.7rem;
+    font-weight: 600;
+}
+.table{
+    margin-top: 3.5rem;
+    min-width: 63vw;
+}
+.tableheadingsec{
+    display: flex;
+ padding: 1rem;
+border-radius: 10px;
+    background-color: rgba(168, 164, 202, 0.71);
+    justify-content: space-around;
+}
+.tableheading,.state,.city,.bloodgrp,.buttons{
+    width:12%;
+    text-align: center;
+}
+.heading1{
+    
+}
+.heading1,.name{
+    width: 40%;
+    text-align: center;
+
+}
+.tablevaluesec{
+    margin-top: 1.5rem;
+}
+.bloodgrp span{
+    background-color: rgba(168, 164, 202, 0.288);
+    padding: 0.1rem 0.9rem;
+    border-radius: 0.9rem;
+}
+.tablesinglevalue{
+    display: flex;
+    justify-content: space-around;
+    margin: 1.5rem 0;
+    align-items: center;
+}
+.email{
+    font-size: 14px;
+    color: rgba(0, 0, 0, 0.6);
+    margin-left: 0.9rem;
+
+}
+.buttons{
+    display: flex;
+    flex-direction: column;
+   
+   
+}
+.button{
+   margin: 0.2rem;
+   text-align: center;
+   color: white;
+   border-radius: 5px;
+}
+.approve{
+    background: rgba(26, 165, 26, 0.685);
+}
+.deny{
+    background: rgba(190, 26, 26, 0.678);
+}
